@@ -1,0 +1,27 @@
+.greeting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 68px;
+}
+
+.greeting h6 {
+  font-family: "Sohne Bold";
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.015em;
+  color: #131316;
+  margin-bottom: 5px;
+}
+
+.greeting p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #31373d;
+}
+
+.greeting_wrapper span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #ff5403;
+}

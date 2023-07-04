@@ -1,0 +1,72 @@
+.page_view_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.page_view_wrapper h5 {
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -0.015em;
+  color: #131316;
+}
+
+.page_view_filter {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+
+.filter_pills {
+  padding: 12px 16px;
+  background: white;
+  border-radius: 100px;
+  border: 1px #eff1f6 solid;
+  font-family: "Sohne Bold";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #31373d;
+  min-width: max-content;
+}
+
+.filter_pills.active {
+  border: 1px solid #ff5403;
+  background: #ffddcd;
+  color: #ff5403;
+}
+
+.page_view_container {
+  border: 1px solid #eff1f6;
+  border-radius: 12px;
+  padding: 32px 24px;
+}
+
+.page_view_topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page_view_topic h6 {
+  font-family: "Sohne Bold";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #131316;
+  margin-bottom: 8px;
+}
+
+.page_view_topic p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #31373d;
+}
+
+.line_chart {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

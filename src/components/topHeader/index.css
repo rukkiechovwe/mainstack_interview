@@ -1,0 +1,24 @@
+.top_header {
+  height: 68px;
+  padding: 22px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 5;
+}
+@media screen and (min-width: 991px) {
+  .top_header {
+    left: 270px;
+    padding: 22px 40px;
+  }
+}
+
+.top_header h6 {
+  font-family: "Sohne Bold";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #131316;
+}

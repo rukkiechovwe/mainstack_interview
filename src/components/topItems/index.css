@@ -1,0 +1,69 @@
+.top_items_wrapper {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 12px;
+  border: 1px #eff1f6 solid;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 24px;
+}
+
+.top_items_topic {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_items_topic h6 {
+  color: #131316;
+  font-family: "Sohne Bold";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.top_items_topic p {
+  color: #ff5403;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.top_items_container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+.label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #131316;
+  font-size: 16px;
+}
+.label_country {
+  line-height: 22.4px;
+}
+.lable_percentage {
+  line-height: 24px;
+  font-family: "Sohne Bold";
+}
+.label_color {
+  width: 12px;
+  height: 12px;
+  background: #599eea;
+  border-radius: 100px;
+}
+.doughnut_chart {
+  width: 200px;
+  height: 200px;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
