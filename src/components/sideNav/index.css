@@ -44,6 +44,11 @@
   align-items: center;
   gap: 12px;
   color: #56616b;
+  cursor: pointer;
+}
+.nav_item:hover{
+    color: #ff5403;
+
 }
 
 .nav_item span {

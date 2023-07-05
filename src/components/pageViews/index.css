@@ -28,9 +28,10 @@
   line-height: 16px;
   color: #31373d;
   min-width: max-content;
+  cursor: pointer;
 }
 
-.filter_pills.active {
+.filter_pills.active,.filter_pills:hover {
   border: 1px solid #ff5403;
   background: #ffddcd;
   color: #ff5403;

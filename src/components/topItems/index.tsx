@@ -25,6 +25,7 @@ const locationIcons: string[] = [
   Icons.ic_usa,
   Icons.ic_netherlands,
   Icons.ic_andorra,
+  Icons.ic_usa,
 ];
 const referralIcons: string[] = [
   Icons.ic_twitter,

@@ -79,6 +79,9 @@ function PageViews({
               length: 0,
               show: false,
             },
+            axisLine: {
+              show: false,
+            },
           },
         ],
         series: [
@@ -86,7 +89,6 @@ function PageViews({
             name: "Page Viewa",
             type: "line",
             stack: "Total",
-            areaStyle: {},
             emphasis: {
               focus: "series",
             },
